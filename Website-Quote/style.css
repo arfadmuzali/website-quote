@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto-Mono", monospace;
+  background-color: rgb(177, 158, 158);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(63, 54, 54, 0.9);
+  padding: 0.5rem 4%;
+  border-bottom: 1px solid rgb(44, 28, 28);
+}
+span {
+  color: rgb(177, 158, 158);
+}
+.navbar-logo {
+  font-size: 1.5rem;
+  color: rgb(24, 20, 20);
+}
+.navbar-menu {
+  font-size: 1.1rem;
+  color: white;
+}
+.navbar-menu a {
+  color: rgb(184, 184, 184);
+}
+.section {
+  margin: 10px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: rgb(185, 116, 116);
+  width: 800px;
+  height: 500px;
+  border-radius: 25px;
+}
+.card-quote {
+  margin: 50px;
+  font-size: 2rem;
+  line-height: 3rem;
+  height: 350px;
+}
+.card-button-container {
+  display: flex;
+  justify-content: end;
+  margin: 0 30px;
+}
+.card-button {
+  background-color: rgb(63, 54, 54);
+  width: 130px;
+  height: 25px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(184, 184, 184);
+}
